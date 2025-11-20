@@ -1,0 +1,7 @@
+body{font-family:Inter,Arial;background:#0f172a;color:#e6eef8;margin:0;padding:20px}
+#app{max-width:480px;margin:0 auto}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.controls, .game{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+button{padding:10px 12px;border-radius:8px;border:0;background:#0ea5e9;color:#012;font-weight:600}
+input,select{padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit}
+#log{margin-top:12px;font-size:14px}

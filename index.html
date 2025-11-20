@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Plays.io — Mini Balls</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Plays</h1>
+      <div id="balance">Баланс: <span id="bal">0.00</span></div>
+    </header>
+
+    <main>
+      <div class="controls">
+        <input id="amount" type="number" step="0.01" placeholder="Сумма"/>
+        <button id="btn-deposit">Запросить депозит</button>
+        <button id="btn-withdraw">Запросить вывод</button>
+      </div>
+
+      <div class="game">
+        <input id="bet" type="number" step="0.01" placeholder="Ставка"/>
+        <select id="nballs">
+          <option value="1">1 шарик</option>
+          <option value="2">2 шарика</option>
+          <option value="3" selected>3 шарика</option>
+          <option value="4">4 шарика</option>
+          <option value="5">5 шариков</option>
+        </select>
+        <button id="btn-play">Играть</button>
+      </div>
+
+      <div id="log"></div>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
